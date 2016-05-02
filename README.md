@@ -1,5 +1,5 @@
 # LobbyCompass
-Vastly rewritten code for MC 1.9.x compatiblity
+Vastly rewritten code for MC 1.9.x compatiblity. With ZERO method deprecation at the time of this commit.
 
 This should be compatible with MC versions from 1.8.0 onwards.
 
