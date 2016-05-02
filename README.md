@@ -11,4 +11,4 @@ The alias /LC is also used by LegendChat This may only affect ops.
 
 WordEdit recognises any compass as it's navigation tool. This will only affect ops unless a player has been given the navigation tool permission.
 
- - solution - In the WordEdit configuration disable the Navigation tool. Or, use an alternative item to 'compass' in either LobbyCompass or WorldEdit.
+ - solution - In the WordEdit configuration disable the Navigation tool. Or, use an alternative item for 'compass' in either LobbyCompass or WorldEdit.
