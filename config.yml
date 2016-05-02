@@ -1,0 +1,46 @@
+# #############################################
+# #      - LobbyCompass Recreated By FrostedGC -        #
+# #############################################
+# # Option 'executedByPlayer' means:
+# #    > true = Command is executed as the player typed it
+# #    > false = Command is executed by console (%n% is player name)
+# # There can be only at most 6 lines in one inventory!
+# # If get-compass-on-join-slot is -1 it will add the compass in a free slot
+# #############################################
+
+compass-name: '&f&lClick this to open warp menu!'
+compass-item: COMPASS
+compass-inventory-name: '&a&lAWESOME Warp-Compass Oo'
+get-compass-on-join: true
+get-compass-on-join-slot: 4
+get-compass-worlds:
+- world
+- world_nether
+- world_the_end
+only-allow-command-lc_get-in-worlds: true
+can-drop-compass: false
+inventory-lines-amount: 4
+sound-effect: true
+options:
+- spawn
+- pvp
+data:
+  spawn:
+    name: '&e&lSpawn / Lobby'
+    lore:
+    - '&7Click this Item to execute command'
+    - '&8&l/warp spawn'
+    - '&7another line :D'
+    item: GRASS
+    cmd: warp spawn
+    executedByPlayer: true
+    position-in-inventory: 10
+  pvp:
+    name: '&c&lPvP Zone'
+    lore:
+    - '&cD&ei&as&bc&do'
+    - '&8&l/pvp <player> join'
+    item: IRON_SWORD
+    cmd: pvp %n% join
+    executedByPlayer: false
+    position-in-inventory: 19

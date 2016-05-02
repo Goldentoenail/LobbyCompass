@@ -1,0 +1,21 @@
+name: LobbyCompass
+author: Dreieck52, Frosted_Nuggz, Goldentoenail
+version: 2.0.002
+
+main: de.Dreieck52.LobbyCompass.LobbyCompass
+
+commands:
+   lobbycompass:
+      description: General LobbyCompass Command
+      aliases: [lc, lobbyc, lcompass, lcomp]
+      usage: /lobbycompass
+permissions:
+   lobbycompass.use:
+      description: Allows a player to use the lobbycompass
+      default: false
+   lobbycompass.get:
+      description: Allows an Admin player to get a lobbycompass
+      default: op
+   lobbycompass.admin:
+      description: Allows an Admin to reload the plugin
+      default: op
