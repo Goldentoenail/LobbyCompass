@@ -1,4 +1,7 @@
 # LobbyCompass
+
+***Please use the other version as this one has an error for the Compass material being a static material***
+
 Vastly rewritten code for MC 1.9.x compatiblity. With ZERO method deprecation at the time of this commit.
 
 This should be compatible with MC versions from 1.8.0 onwards.
